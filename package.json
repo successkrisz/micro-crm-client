@@ -71,9 +71,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davezuko/react-redux-starter-kit.git"
+    "url": "git+https://github.com/successkrisz/micro-crm-client.git"
   },
-  "author": "David Zukowski <david@zuko.me> (http://zuko.me)",
+  "author": "Kristian Balla <kriszi.balla@gmail.com> (http://zuko.me)",
   "license": "MIT",
   "dependencies": {
     "babel-core": "^6.17.0",
