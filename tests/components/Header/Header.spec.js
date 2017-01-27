@@ -13,7 +13,7 @@ describe('(Component) Header', () => {
   it('Renders a welcome message', () => {
     const welcome = _wrapper.find('h1')
     expect(welcome).to.exist
-    expect(welcome.text()).to.match(/React Redux Starter Kit/)
+    expect(welcome.text()).to.match(/Micro CRM/)
   })
 
   describe('Navigation links...', () => {
@@ -27,8 +27,8 @@ describe('(Component) Header', () => {
 
     it('Should render a Link to Counter route', () => {
       expect(_wrapper.contains(
-        <Link activeClassName='route--active' to='/counter'>
-          Counter
+        <Link activeClassName='route--active' to='/logout'>
+          Log out
         </Link>
       )).to.be.true
     })
